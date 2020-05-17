@@ -1,14 +1,14 @@
 import axios from 'axios'
 
-const url="https:/covid19.mathdro.id/api"; 
+const url1="https:/covid19.mathdro.id/api"; 
 const url2="https:/covid19.mathdro.id/api/daily"; 
 const url3="https:/covid19.mathdro.id/api/countries"
 
 export  const  fetchData = async (country) =>{ 
-    let  changeableUrl = url; 
+    let  changeableUrl = url1; 
     
     if(country) {
-        changeableUrl=`${url}/countries/${country}` 
+        changeableUrl=`${url1}/countries/${country}` 
 
     }
     try{
