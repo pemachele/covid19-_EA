@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const url1="../https:/covid19.mathdro.id/api"; 
+const url1="https:/covid19.mathdro.id/api"; 
 const url2="https:/covid19.mathdro.id/api/daily"; 
 const url3="https:/covid19.mathdro.id/api/countries"
 
